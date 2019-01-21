@@ -37,3 +37,9 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G950F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=dreamlte \
+    PRIVATE_BUILD_DESC="dreamltexx-user 9 PPR1.180610.011 G950FXXU4ZSA5 release-keys"
+
+BUILD_FINGERPRINT := samsung/dreamltexx/dreamlte:8.0.0/R16NW/G950FXXS4CRLB:user/release-keys
