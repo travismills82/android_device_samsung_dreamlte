@@ -19,7 +19,6 @@ LOCAL_PATH := device/samsung/dreamlte
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/dreamlte/dreamlte.mk)
 $(call inherit-product, device/samsung/universal8895-common/universal8895-common.mk)
 
 # Inherit from the 64 bit configuration
